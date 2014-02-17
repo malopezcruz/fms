@@ -78,10 +78,16 @@ activate :livereload
 ###
 # Sprockets
 ###
-sprockets.append_path "bower_components/foundation/js"
-sprockets.append_path "bower_components/modernizr"
-sprockets.append_path "bower_components/jquery"
-sprockets.append_path "bower_components/foundation-icon-fonts"
+# sprockets.append_path "bower_components/foundation/js"
+# sprockets.append_path "bower_components/modernizr"
+# sprockets.append_path "bower_components/jquery"
+# sprockets.append_path "bower_components/foundation-icon-fonts"
+
+# Add bower's directory to sprockets asset path
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
+ end
 
 
 set :css_dir, 'stylesheets'
