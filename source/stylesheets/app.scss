@@ -19,12 +19,14 @@
   "foundation/components/keystrokes",
   "foundation/components/labels",
   "foundation/components/magellan",
+  "foundation/components/offcanvas",
   "foundation/components/orbit",
   "foundation/components/pagination",
   "foundation/components/panels",
   "foundation/components/pricing-tables",
   "foundation/components/progress-bars",
   "foundation/components/reveal",
+  "foundation/components/reveal-new",
   "foundation/components/side-nav",
   "foundation/components/split-buttons",
   "foundation/components/sub-nav",
@@ -35,11 +37,11 @@
   "foundation/components/tooltips",
   "foundation/components/top-bar",
   "foundation/components/type",
-  "foundation/components/offcanvas",
-  "foundation/components/visibility";
-  @import "fonts";
-  @import "base";
-  @import "small";
-  @import "medium";
-  @import "large";
+  "foundation/components/visibility",
+  "foundation/components/xy-center";
+@import "fonts";
+@import "base";
+@import "small";
+@import "medium";
+@import "large";
 

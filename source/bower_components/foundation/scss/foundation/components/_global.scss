@@ -250,6 +250,8 @@ $include-html-classes: true !default;
 $include-print-styles: true !default;
 $include-html-global-classes: $include-html-classes !default;
 
+$column-gutter: rem-calc(30) !default;
+
 
 // Media Query Ranges
 $small-range: (0em, 40em) !default;
@@ -298,7 +300,7 @@ $cursor-text-value: text !default;
   @if $include-html-global-classes {
 
     meta.foundation-version {
-      font-family: "/5.2.0/";
+      font-family: "/5.2.1/";
     }
     // Used to provide media query values for javascript components.
     // Forward slash placed around everything to convince PhantomJS to read the value.
