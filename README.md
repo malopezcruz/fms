@@ -6,8 +6,6 @@ FMS is a Zurb-Foundation-Middleman Skeleton for rapid prototyping and static web
 + Ruby 
 + [Middleman](https://middlemanapp.com/) `gem install middleman`
 + Bower `npm install -g bower`
-+ PhantomJS `npm install phantomjs`
-+ CasperJS `npm install casperjs`
 
 ## Installation
 1. `git clone https://github.com/marcqz/fms.git <project-name>`
@@ -17,9 +15,6 @@ FMS is a Zurb-Foundation-Middleman Skeleton for rapid prototyping and static web
 ## Server
 `bundle exec middleman`  
 http://localhost:4567
-
-
-This plugin will make the screenshots of your static html files using phantomjs. (make sure you have phantomjs installed on your machine)
 
 ## ZURB Foundation License
 
