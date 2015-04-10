@@ -1,6 +1,6 @@
-###
-# Compass
-###
+###########
+# Compass #
+###########
 
 compass_config do |config|
   # Require any additional compass plugins here.
@@ -32,9 +32,9 @@ compass_config do |config|
 end
 
 
-###
-# Locale
-###
+##########
+# Locale #
+##########
 activate :i18n, :mount_at_root => :es
 
 ###
@@ -58,9 +58,10 @@ activate :i18n, :mount_at_root => :es
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
-###
-# Helpers
-###
+
+###########
+# Helpers #
+###########
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
@@ -75,9 +76,11 @@ activate :livereload
 #   end
 # end
 
-###
-# Sprockets
-###
+
+#############
+# Sprockets #
+#############
+
 # sprockets.append_path "bower_components/foundation/js"
 # sprockets.append_path "bower_components/modernizr"
 # sprockets.append_path "bower_components/jquery"
@@ -87,7 +90,7 @@ activate :livereload
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
- end
+end
 
 
 set :css_dir, 'stylesheets'
@@ -99,9 +102,10 @@ set :images_dir, 'images'
 #set :fonts_dir, 'fonts' #set absolut path in foundation-icons.scss
 
 
-###
-# Markdown
-###
+############
+# Markdown #
+############
+
 # set :markdown_engine, :kramdown
 # set :markdown, :layout_engine => :erb,
 #                :tables => true,

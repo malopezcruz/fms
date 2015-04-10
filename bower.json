@@ -1,6 +1,6 @@
 {
   "name": "fms",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [
     "Marcos A. López-Cruz <marquibiris@gmail.com>"
   ],
@@ -14,7 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~>5.4.6",
+    "foundation": "~>5.5.0",
     "foundation-icon-fonts": "*"
   }
 }

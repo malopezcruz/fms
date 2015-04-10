@@ -16,4 +16,11 @@
 # Ignore .DS_store file
 .DS_Store
 
+# Ignore cache
 /.cache
+
+# Ignore Bower Components
+/source/bower_components
+
+# Ignore NPM Module
+/node_modules
